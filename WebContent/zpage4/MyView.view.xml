@@ -1,0 +1,29 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+      xmlns:form="sap.ui.layout.form"
+		controllerName="zpage4.MyView" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Employee Registration Form">
+		<content>
+	        <form:SimpleForm>
+	        
+	            <form:content>
+	            
+	                <Label text="Employee Name"/>
+	                <Input />
+	                <Label text="Department"/>
+	                <ComboBox>
+	                     <items>
+	                        <core:Item text="SAP"/>
+	                        <core:Item text="Oracle"/>
+	                        <core:Item text="Java"/>
+	                     </items>
+	                </ComboBox>
+	            </form:content>
+	            
+	              <form:title>
+	                <core:Title text="Please Enter Employee Details"/><!-- Aggregated Child -->
+	            </form:title>
+	            
+	        </form:SimpleForm>
+		</content>
+	</Page>
+</core:View>
